@@ -263,7 +263,23 @@ section {
 .box span {
     font-size: 14px;
 }
+/* coming-container */
+.coming-container{
+    display: grid;
+    gap: 1rem;
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
 
+.coming-container .box img{
+    border-radius: 15px;
+}
+
+.coming-container .box img:hover{
+    transform: translateY(0);
+}
 /* newsletter */
 .newsletter {
     width: 100%;
@@ -318,6 +334,7 @@ section {
     justify-content: center;
     text-transform: uppercase;
     padding: 8px;
+    margin-bottom: 3rem;
     border-radius: 15px;
     cursor: pointer;
 }
@@ -328,7 +345,7 @@ section {
 
 .newsletter .logoB {
     font-size: 2rem;
-    margin: 5rem;
+    margin: 3rem;
     color: #fff;
     text-align: center;
     margin-bottom: 2rem;
